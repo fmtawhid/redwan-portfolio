@@ -1,0 +1,23 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.brand-carousel {
+  display: flex;
+  gap: 64px;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.brand-carousel:hover {
+  animation-play-state: paused;
+}
+
+.brand-item {
+  flex-shrink: 0;
+}
