@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import { Image, ZoomIn } from "lucide-react";
+import image1 from "@/assets/1.jpeg";
+import image2 from "@/assets/2.png";
+import image3 from "@/assets/3.jpeg";
 
 const galleryItems = [
-  { title: "Strategy Workshop", category: "Live Session", img: "/images/1.jpeg" },
-  { title: "Ad Funnel Breakdown", category: "Training", img: "/images/2.png" },
-  { title: "Team Collaboration", category: "Group Session", img: "/images/3.jpeg" },
+  { title: "Strategy Workshop", category: "Live Session", img: image1 },
+  { title: "Ad Funnel Breakdown", category: "Training", img: image2 },
+  { title: "Team Collaboration", category: "Group Session", img: image3 },
 ];
 
 const GallerySection = () => {

@@ -3,6 +3,7 @@ import { type SharedData } from '@/types';
 import { Link, usePage } from '@inertiajs/react';
 import { motion } from 'framer-motion';
 import { type PropsWithChildren } from 'react';
+import jolshiriVision from '@/assets/hero-bg.jpg';
 
 interface AuthLayoutProps {
     title?: string;
@@ -18,7 +19,7 @@ export default function AuthSplitLayout({ children, title, description }: PropsW
             <div className="relative hidden flex-col text-white lg:flex">
                 {/* Background image with overlay */}
                 <div className="absolute inset-0">
-                    <img src="/images/jolshiri-vision.jpg" alt="Jolshiri Background" className="w-full h-full object-cover mix-blend-overlay opacity-80" />
+                    <img src={jolshiriVision} alt="Jolshiri Background" className="w-full h-full object-cover mix-blend-overlay opacity-80" />
                     <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent" />
                 </div>
 

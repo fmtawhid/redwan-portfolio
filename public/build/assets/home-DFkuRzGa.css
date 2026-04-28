@@ -1,0 +1,1 @@
+@keyframes scroll{0%{transform:translate(0)}to{transform:translate(-50%)}}.brand-carousel{display:flex;gap:64px;width:max-content;animation:scroll 30s linear infinite}.brand-carousel:hover{animation-play-state:paused}.brand-item{flex-shrink:0}
